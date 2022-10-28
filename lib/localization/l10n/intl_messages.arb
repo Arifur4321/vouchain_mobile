@@ -1,0 +1,903 @@
+{
+  "@@last_modified": "2021-01-26T15:13:41.963273",
+  "title": "Vouchain wallet app",
+  "@title": {
+    "description": "App title",
+    "type": "text",
+    "placeholders": {}
+  },
+  "vouchain": "Vouchain",
+  "@vouchain": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "employee": "Beneficiario",
+  "@employee": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "merchant": "{howMany,plural, =1{Affiliato}other{Affiliati}}",
+  "@merchant": {
+    "type": "text",
+    "placeholders": {
+      "howMany": {}
+    }
+  },
+  "walletManagement": "Gestione Wallet",
+  "@walletManagement": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "merchantShowcase": "Vetrina affiliati",
+  "@merchantShowcase": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noMerchantFound": "Non sono stati trovati affiliati",
+  "@noMerchantFound": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "merchantTransfer": "Trasferimento ad affiliati",
+  "@merchantTransfer": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "qrTransfer": "QR Trasferimenti",
+  "@qrTransfer": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "qrList": "Lista QRCode",
+  "@qrList": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "transactionHistory": "Storico transazioni",
+  "@transactionHistory": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "profileSettings": "Impostazioni profilo",
+  "@profileSettings": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "faq": "FAQ",
+  "@faq": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "customerService": "Assistenza",
+  "@customerService": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "modify": "Modifica",
+  "@modify": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "import": "Importo",
+  "@import": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "description": "Descrizione",
+  "@description": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "modifySuccessful": "La modifica è stata effettuata con successo",
+  "@modifySuccessful": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cancel": "Annulla",
+  "@cancel": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "logout": "Logout",
+  "@logout": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "backTo": "Torna alla ",
+  "@backTo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "homepage": "Homepage",
+  "@homepage": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "login": "Entra",
+  "@login": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "invitationText": "Hai un codice di invito?",
+  "@invitationText": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "email": "Email",
+  "@email": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "password": "Password",
+  "@password": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "signup": "Registrati",
+  "@signup": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "signupAccept": "Accetta",
+  "@signupAccept": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "termsConditions": "Termini e Condizioni",
+  "@termsConditions": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "name": "Nome",
+  "@name": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "officeName": "Nome Ufficio",
+  "@officeName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "surname": "Cognome",
+  "@surname": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "matricola": "Matricola",
+  "@matricola": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "repeatPassword": "Ripeti password",
+  "@repeatPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "invitationCodeText": "Codice di invito",
+  "@invitationCodeText": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "applyText": "Invia",
+  "@applyText": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "passwordRecovery": "Recupera password",
+  "@passwordRecovery": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "enterEmail": "Inserisci la tua email",
+  "@enterEmail": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "confirm": "Conferma",
+  "@confirm": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "yourWallet": "Il Tuo Wallet",
+  "@yourWallet": {
+    "type": "text",
+    "placeholders": {}
+  },
+   "okicon": "Disponibile",
+  "@okicon": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "redicon": "Scaduto",
+  "@redicon": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "walletValue": "Valore",
+  "@walletValue": {
+    "type": "text",
+    "placeholders": {}
+  },
+   "Status": "Stato",
+  "@Status": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "expirationDate": "Scadenza",
+  "@expirationDate": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "download": "Scarica",
+  "@download": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "downloadCompleted": "Download completato",
+  "@downloadCompleted": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "startDate": "Data di inizio",
+  "@startDate": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "endDate": "Data di Fine",
+  "@endDate": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "date": "Data",
+  "@date": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "insertStartEndDate": "Inserisci una data di inizio e di fine",
+  "@insertStartEndDate": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "insertValidTimeRange": "Per favore inserisci un intervallo valido",
+  "@insertValidTimeRange": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "periodSelect": "Seleziona un periodo",
+  "@periodSelect": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "quantity": "Quantità",
+  "@quantity": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "allocateVouchers": "Allocazione Buoni ",
+  "@allocateVouchers": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "availableVouchers": "Vouchers disponibili",
+  "@availableVouchers": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "invalidPassword": "Inserire una password valida",
+  "@invalidPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "invalidPasswordExplanation": "La password deve essere di almeno 8 caratteri,\navere almeno una lettera maiuscola,\nuna lettera minuscola, e un numero",
+  "@invalidPasswordExplanation": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "passwordMustCoincide": "Le password devono coincidere",
+  "@passwordMustCoincide": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "invalidEmail": "Inserire un'email",
+  "@invalidEmail": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "error": "Errore",
+  "@error": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "generalErrorRetry": "Si è verificato un errore, riprovare",
+  "@generalErrorRetry": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "invalidCode": "Il codice inserito non è valido",
+  "@invalidCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "invalidEmailOrPassword": "Email e/o Password errati",
+  "@invalidEmailOrPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "scanQrCode": "Questo è il risultato dello scan: ",
+  "@scanQrCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "scanningQrCode": "Scansione del Codice Qr",
+  "@scanningQrCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "continueScanning": "Vuoi continuare a scansionare?",
+  "@continueScanning": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "infoQrCode": "Scansiona il codice QR",
+  "@infoQrCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "invalidQrCode": "Codice Qr non valido",
+  "@invalidQrCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "addQrCode": "Aggiungi QR",
+  "@addQrCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "selectedMerchant": "Affiliato",
+  "@selectedMerchant": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "transferVouchers": "Trasferisci buoni",
+  "@transferVouchers": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "wallet": "Wallet",
+  "@wallet": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "payment": "Pagamento",
+  "@payment": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "pay": "Paga",
+  "@pay": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "transaction": "{howMany,plural, =1{Transazione}other{Transazioni}}",
+  "@transaction": {
+    "type": "text",
+    "placeholders": {
+      "howMany": {}
+    }
+  },
+  "mrcDetails": "Dettagli Affiliato",
+  "@mrcDetails": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mrcName": "Nominativo",
+  "@mrcName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mrcBusinessName": "Ragione Sociale",
+  "@mrcBusinessName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mrcAddress": "Indirizzo",
+  "@mrcAddress": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mrcPhone": "Telefono",
+  "@mrcPhone": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "contactName": "Nome Referente",
+  "@contactName": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "contactSurname": "Cognome Referente",
+  "@contactSurname": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mrcCity": "Città",
+  "@mrcCity": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mrcProv": "Provincia",
+  "@mrcProv": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "gallery": "Galleria",
+  "@gallery": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mrcZipCode": "Cap",
+  "@mrcZipCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "backToTransferVouchers": "Torna al trasferimento vouchers",
+  "@backToTransferVouchers": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "accessSecurity": "Accesso e Sicurezza",
+  "@accessSecurity": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "accessType": "Scegli la modalità di accesso all'app",
+  "@accessType": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "normalAccess": "Accesso normale",
+  "@normalAccess": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fingerPrint": "FingerPrint",
+  "@fingerPrint": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "pinAccess": "PIN",
+  "@pinAccess": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "repeatPin": "Ripeti PIN",
+  "@repeatPin": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "insertPin": "Inserire il PIN",
+  "@insertPin": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "forgottenPin": "Hai dimenticato il PIN? Effettua il ",
+  "@forgottenPin": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "wrongPin": "PIN errato",
+  "@wrongPin": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "inUseMode": "Modalità già in uso",
+  "@inUseMode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "okButton": "OK",
+  "@okButton": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "removedFingerMode": "L'accesso con impronta digitale è stato rimosso",
+  "@removedFingerMode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "pinSet": "Il PIN è stato impostato",
+  "@pinSet": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "pinRemoved": "Il PIN è stato rimosso",
+  "@pinRemoved": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "passwordChanged": "La password è stata cambiata",
+  "@passwordChanged": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "wrongPassword": "La password attuale non è corretta, riprovare",
+  "@wrongPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noSamePassword": "La vecchia password e la nuova\npassword non possono coincidere",
+  "@noSamePassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "resetPassword": "Reimposta Password",
+  "@resetPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "resetPasswordDone": "La password è stata reimpostata",
+  "@resetPasswordDone": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "insertPassword": "Inserire una password",
+  "@insertPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "newPassword": "Nuova Password",
+  "@newPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "actualPassword": "Password attuale",
+  "@actualPassword": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "reconnect": "Riconnettiti",
+  "@reconnect": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "valueSign": " €",
+  "@valueSign": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "avaibleBalance": "Saldo disponibile",
+  "@avaibleBalance": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "remainVouchers": "Voucher rimasti",
+  "@remainVouchers": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "settings": "Impostazioni",
+  "@settings": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "showProfile": "Visualizza profilo",
+  "@showProfile": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "passwordChange": "Cambia Password",
+  "@passwordChange": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "insertInvitationCode": "Inserire il codice di invito",
+  "@insertInvitationCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "researchRange": " km (Raggio di ricerca)",
+  "@researchRange": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "insertResearchRange": "Inserire un raggio di ricerca",
+  "@insertResearchRange": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "researchRangeMoreThanZero": "Inserire un raggio di ricerca\nmaggiore di zero",
+  "@researchRangeMoreThanZero": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "kM": " km",
+  "@kM": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "allowLocalization": "È necessario autorizzare la localizzazione per visualizzare la lista degli affiliati nei paraggi",
+  "@allowLocalization": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "openMap": "Mappa",
+  "@openMap": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "camera": "Camera",
+  "@camera": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "answerNo": "No",
+  "@answerNo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "answerYes": "Si",
+  "@answerYes": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "allowPhoneCamera": "È necessario autorizzare l'uso della fotocamera per usufruire di questo servizio",
+  "@allowPhoneCamera": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "acceptTerms": "Per proseguire devi accettare i termini",
+  "@acceptTerms": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "exportHistory": "Esporta Storico",
+  "@exportHistory": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "save": "Salva",
+  "@save": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "voucherAccredit": "Accredito di buoni",
+  "@voucherAccredit": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "reciveVoucherFrom": "Ricezione buoni da ",
+  "@reciveVoucherFrom": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "redeemVoucher": "Riscatto buoni",
+  "@redeemVoucher": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "voucherTransferTo": "Trasferimento di buoni verso ",
+  "@voucherTransferTo": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "genericTransaction": "Transazione generica",
+  "@genericTransaction": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "transactionNumber": "Transazione n°",
+  "@transactionNumber": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "selectedVoucher": "Buoni selezionati",
+  "@selectedVoucher": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "recipient": "Affiliato destinatario",
+  "@recipient": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "recipientSender": "Beneficiario mittente",
+  "@recipientSender": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "causal": "Causale",
+  "@causal": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noTransactionToExport": "Non ci sono transazioni da esportare",
+  "@noTransactionToExport": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "totalSelected": "Totale selezionato",
+  "@totalSelected": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "selectQuantity": "Seleziona la quantità",
+  "@selectQuantity": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "orderSummary": "Riepilogo Ordine",
+  "@orderSummary": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "selectAtLeastOneVoucher": "Selezionare almeno un buono",
+  "@selectAtLeastOneVoucher": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "voucherTransferComplete": "Trasferimento voucher completato",
+  "@voucherTransferComplete": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "voucherTransferError": "Voucher Scaduto. Errore nel trasferimento voucher ",
+  "@voucherTransferError": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "forgotThe": "Hai dimenticato la ",
+  "@forgotThe": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cash": "Cassa ",
+  "@cash": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "cashNumber": "Numero cassa",
+  "@cashNumber": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noQrCodeYet": "Non ci sono ancora QRcode",
+  "@noQrCodeYet": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "createNewQrCode": "Crea nuovo",
+  "@createNewQrCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "newQrCode": "Nuovo QR Code",
+  "@newQrCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "qrCodeDeleted": "Il QR code è stato eliminato.",
+  "@qrCodeDeleted": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "qrCodeCash": "QR code cassa ",
+  "@qrCodeCash": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "insertANumber": "Inserisci un numero",
+  "@insertANumber": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "delete": "Elimina",
+  "@delete": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "history": "Storico",
+  "@history": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "completed": "Completato",
+  "@completed": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "passwordResetError": "Si è verificato un errore,\ncontrollare che il link sia valido.",
+  "@passwordResetError": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "logoutSuccesful": "Il logout è stato effettuato correttamente",
+  "@logoutSuccesful": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noTransactionsFound": "Non sono state trovate transazioni in questo intervallo",
+  "@noTransactionsFound": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "errorNoDetails": "Non è stato possibile recuperare i dettagli.",
+  "@errorNoDetails": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "userNotActive": "Utente ancora non attivato",
+  "@userNotActive": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "imageTooLarge": "L'immagine inserita è troppo grande,\ndimensione massima consentita: ",
+  "@imageTooLarge": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "existingQrCode": "Esiste già una cassa con questo numero,\nper favore selezionare un altro numero",
+  "@existingQrCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "nonExistingQrCode": "Il QR code non è più disponibile.",
+  "@nonExistingQrCode": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "mailSent": "Ti abbiamo inoltrato una mail con la procedura di recupero password.",
+  "@mailSent": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "passwordRestored": "Password ripristinata!",
+  "@passwordRestored": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "fingerPrintSet": "L'accesso con impronta digitale è stato impostato",
+  "@fingerPrintSet": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "touchSensorForAuth": "Tocca il sensore per autenticarti",
+  "@touchSensorForAuth": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "noBiometricsOnDevice": "Su questo dispositivo non è presente un lettore biometrico",
+  "@noBiometricsOnDevice": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "transactionReceived": "Hai ricevuto una nuova transazione",
+  "@transactionReceived": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "received": "Hai ricevuto ",
+  "@received": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "ofString": " di ",
+  "@ofString": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "transactionsNotification": "Notifiche transazioni",
+  "@transactionsNotification": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "from": " da ",
+  "@from": {
+    "type": "text",
+    "placeholders": {}
+  },
+  "openApp": "Apri l'applicazione per i dettagli",
+  "@openApp": {
+    "type": "text",
+    "placeholders": {}
+  }
+}

@@ -1,0 +1,150 @@
+name: vouchain_wallet_app
+description: Applicazione Vouchain Wallet App.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.2.7+153
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  # Add the localization packages
+  intl: ^0.16.1
+  intl_translation: ^0.17.0
+  # Handle http requests
+  http: ^0.12.2
+  # Used for responsive layout
+  flutter_screenutil: ^3.2.0
+
+  # Interactions with device
+  # Provide paths to store and retrieve file in device storage
+  path_provider: ^1.6.14
+  # Check and request device permissions
+  permission_handler: ^5.0.1+1
+  # Display notifications
+  flutter_local_notifications:  ^3.0.2
+  # Let the user open downloaded files
+  open_file: ^3.0.1
+  # Allows interactions with QR codes
+  qr_code_scanner: ^0.1.0
+  # Allows to temporarily store user session data
+  flutter_session: ^0.1.1
+  # Allows to store information in a secure way
+  flutter_secure_storage: ^3.3.5
+  # Allows to use biometrics authentication
+  local_auth: ^0.6.3+2
+  # Allows to read user coords
+  geolocator: ^6.0.0+4
+  # Allows to open maps application
+  map_launcher: ^0.12.2
+  # Allows to make different url calls like email
+  url_launcher: ^5.7.8
+  # Allows to choose an image from device storage or to make a photo
+  image_picker: ^0.6.7+14
+  # Allows to open the app from an external link (es. deeplink)
+  uni_links: ^0.4.0
+
+  # Graphic widgets
+  # Adds checkbox to forms
+  checkbox_formfield: ^0.1.0+3
+  # Provide the datepicker
+  date_range_form_field: ^0.0.4
+  # Provides a spinner number picker
+  numberpicker: ^1.2.1
+  # Provides a loading overlay
+  loading_overlay: ^0.2.1
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+
+  flutter_test:
+    sdk: flutter
+
+  flutter_launcher_icons: "^0.7.3"
+  flutter_native_splash: ^0.1.9
+
+flutter_icons:
+  image_path_android: "assets/images/vouchain_logo.jpg"
+  image_path_ios: "assets/images/vouchain_logo.jpg"
+  android: true # can specify file name here e.g. "ic_launcher"
+  ios: true # can specify file name here e.g. "My-Launcher-Icon"
+
+flutter_native_splash:
+    image: assets/images/splash.png
+    color: "2c61f1"
+    fill: false
+    android_disable_fullscreen: true
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: Graphik
+      fonts:
+        - asset: fonts/Graphik-Thin.ttf
+          weight: 100
+        - asset: fonts/Graphik-Extralight.ttf
+          weight: 200
+        - asset: fonts/Graphik-Light.ttf
+          weight: 300
+        - asset: fonts/Graphik-Regular.ttf
+          weight: 400
+        - asset: fonts/Graphik-Medium.ttf
+          weight: 500
+        - asset: fonts/Graphik-Semibold.ttf
+          weight: 600
+        - asset: fonts/Graphik-Bold.ttf
+          weight: 700
+        - asset: fonts/Graphik-Black.ttf
+          weight: 800
+        - asset: fonts/Graphik-Super.ttf
+          weight: 900
+
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
